@@ -32,9 +32,9 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className="py-20 bg-gray-100">
+    <section id="portfolio" className="py-10 bg-gray-100">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold mb-8">Our Portfolio</h2>
+        <h2 className="text-4xl font-bold">Our Portfolio</h2>
         <p className="text-gray-600 mb-12">
           Discover some of the amazing projects we've worked on!
         </p>

@@ -61,18 +61,18 @@ const blogs = [
 
 export default function BlogSection() {
     return (
-        <section className="bg-gray-100 py-20 sm:py-32">
+        <section className="bg-gray-100 sm:py-10">
             <div className="mx-auto max-w-8xl px-6 lg:px-8">
                 {/* Heading */}
                 <div className="mx-auto text-center ">
-                    <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">From the blog</h2>
-                    <p className="mt-2 text-lg text-gray-600">
+                    <h2 className="text-4xl font-bold ">From the Blog</h2>
+                    <p className="mt-2 text-lg text-gray-600 mb-12">
                         Stay updated with the latest trends and tips.
                     </p>
                 </div>
 
                 {/* Blog Cards */}
-                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+                <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 mb-12 lg:mx-0 lg:max-w-none lg:grid-cols-4">
                     {blogs.map((blog) => (
                         <article key={blog.id} className="flex max-w-xl flex-col items-start justify-between">
                             <div className="flex items-center gap-x-4 text-xs">
