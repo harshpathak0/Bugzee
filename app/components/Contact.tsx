@@ -2,7 +2,7 @@ export default function Contact() {
     return (
       <section id="contact" className="py-20 bg-white text-center">
         <h2 className="text-3xl font-bold">Get In Touch</h2>
-        <form className="mt-6 space-y-4">
+        <form className="mt-6 space-y-4 px-4 py-4">
           <input
             type="text"
             placeholder="Your Name"
