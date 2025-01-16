@@ -106,7 +106,7 @@ export default function BlogSection() {
                                 </p>
                             </div>
                             <div className="relative mt-8 flex items-center gap-x-4">
-                                <img
+                                <Image
                                     src={blog.author.image}
                                     alt={blog.author.name}
                                     className="h-10 w-10 rounded-full bg-gray-50"

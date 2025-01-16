@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const projects = [
   {
@@ -36,7 +37,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-4xl font-bold">Our Portfolio</h2>
         <p className="text-gray-600 mb-12">
-          Discover some of the amazing projects we've worked on!
+        Discover some of the amazing projects we&apos;ve worked on!
         </p>
         <motion.div
           className="flex gap-6 overflow-x-scroll no-scrollbar"
@@ -51,7 +52,7 @@ export default function Portfolio() {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover"
